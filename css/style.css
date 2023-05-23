@@ -1,0 +1,149 @@
+*{
+    
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body{
+    background-color: bisque;
+}
+/*----------------------main---------------*/
+
+.carousel-inner, .carousel-item{
+    height: 650px;
+}
+
+
+.carousel-item img{
+    height: 650;
+    object-fit: cover;
+}
+
+h1{
+    text-align: center;
+}
+.main_index, .main_index2{
+    display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  margin-bottom: 20px; 
+ text-decoration: solid;
+}
+
+.main_index img, .main_index2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+/*----------------------------galeria--------------------------------*/
+
+.main-galeria img{
+    width: 280px;
+    height: 280px;
+    margin-left: 70px;
+}
+
+.h1-galeria{
+    display: flex;
+    justify-content: center;
+}
+
+.galeria_grids img{
+    height: 100%;
+    border-radius: 10%;
+    
+}
+.galeria_grids{
+    display: grid;
+    margin: 0,auto;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-auto-rows: 1fr;
+    grid-gap: 0.4rem;
+       
+}
+
+/*---------------renata--------------------*/
+.renata_renata{
+    display:flex;
+    justify-content:space-around;
+}
+
+.renata_renata img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.renata_renata2{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.renata_renata2 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    padding: 10px;
+    
+}
+
+/*---------------------tips--------------------*/
+.renata_tips{
+    display: flex;
+
+}
+
+.renata_tips img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+
+
+/*------------------footer------------*/
+
+footer {
+    display: flex;
+    justify-content: center; 
+    background-color: bisque;
+    padding: 20px;
+  }
+
+footer ul{
+    list-style: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    margin: 0 10px; 
+  }
+
+  footer a {
+    text-decoration: none;
+    color: #333;
+  }
+
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+  
+
+@media only screen and (max-width:576px){
+    .carousel-inner, .carousel-item, .carousel-item img{
+        height: 400px;
+    }
+}
