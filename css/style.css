@@ -29,6 +29,8 @@ h1{
   justify-content: space-between;
   margin-bottom: 20px; 
  text-decoration: solid;
+ gap: 20px;
+ padding: 2%;
 }
 
 .main_index img, .main_index2 img{
@@ -68,26 +70,33 @@ h1{
 .renata_renata{
     display:flex;
     justify-content:space-around;
+    padding: 10px;
+    
+    
 }
 
 .renata_renata img{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     padding: 10px;
     border-radius: 10%;
+    background-color: white;
+    
 }
 
 .renata_renata2{
     display: flex;
     justify-content: space-around;
+    
 
 }
 
 .renata_renata2 img{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 10%;
     padding: 10px;
+    background-color: white;
     
 }
 
@@ -102,8 +111,16 @@ h1{
     height: 200px;
     border-radius: 10%;
     padding: 10px;
+    background-color: white;
+    margin: 10px;
+    
 }
 
+.tips_texto{
+   
+    border-radius: 10%;
+    background-color: rgb(250, 207, 164);
+}
 
 
 /*------------------footer------------*/
@@ -140,10 +157,21 @@ footer ul li a{
 }
 
 
-  
 
-@media only screen and (max-width:576px){
+@media only screen and (max-width:576px) {
+
     .carousel-inner, .carousel-item, .carousel-item img{
         height: 400px;
+        
     }
+
+    .main_index, .main_index2{
+        padding: 3%;
+    }
+
+    .main_index img, .main_index2 img{
+        padding: 3%;
+    }
+
+
 }
