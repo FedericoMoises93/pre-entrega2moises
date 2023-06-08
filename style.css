@@ -1,0 +1,176 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: bisque;
+}
+body h1 {
+  text-align: center;
+  color: rgb(57, 57, 57);
+}
+
+.carousel-inner, .carousel-item {
+  height: 650px;
+}
+
+.carousel-item img {
+  height: 650;
+  object-fit: cover;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: bisque;
+  padding: 30px;
+}
+
+.main_index, .main_index2 {
+  display: flex;
+  flex-direction: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  text-decoration: solid;
+  gap: 20px;
+  padding: 2%;
+}
+.main_index img, .main_index2 img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+}
+
+/*----------------------------galeria--------------------------------*/
+.main-galeria img {
+  width: 280px;
+  height: 280px;
+  margin-left: 70px;
+}
+.main-galeria img .h1-galeria {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.galeria_grids {
+  display: grid;
+  margin: 0, auto;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-auto-rows: 1fr;
+  grid-gap: 0.4rem;
+}
+.galeria_grids img {
+  height: 100%;
+  border-radius: 10%;
+}
+
+/*---------------renata--------------------*/
+.renata_renata, .renata_renata2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.renata_renata img, .renata_renata2 img {
+  width: 180px;
+  height: 180px;
+  padding: 10px;
+  border-radius: 10%;
+  background-color: white;
+}
+.renata_renata img:hover, .renata_renata2 img:hover {
+  padding: 0;
+  transition: 0.4s;
+}
+
+.renata_renata2 img {
+  width: 180px;
+  height: 180px;
+  border-radius: 10%;
+  padding: 10px;
+  background-color: white;
+}
+
+/*---------------------tips--------------------*/
+.renata_tips {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.renata_tips img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+}
+
+.tips_texto {
+  border-radius: 10%;
+  background-color: rgb(250, 207, 164);
+  padding: 10px;
+}
+
+.form_conteiner {
+  padding: 3% 7%;
+}
+
+.boton_enviar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.enviar_color {
+  background-color: rgb(190, 176, 158);
+  border-color: rgb(190, 176, 158);
+}
+.enviar_color:hover {
+  background-color: rgb(158, 144, 124);
+  transition: 0.4s;
+  border-color: rgb(158, 144, 124);
+}
+
+@media only screen and (max-width: 576px) {
+  .carousel-inner, .carousel-item, .carousel-item img {
+    height: 400px;
+  }
+  .main_index, .main_index2 {
+    padding: 3%;
+  }
+  img {
+    padding: 3%;
+  }
+  .renata_renata,
+  .renata_renata2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .renata_renata img,
+  .renata_renata2 img {
+    width: 150px;
+    height: 150px;
+  }
+  .renata_tips {
+    flex-direction: column;
+    align-items: center;
+  }
+  .renata_tips img {
+    width: 150px;
+    height: 150px;
+  }
+  .tips_texto {
+    font-size: 12px;
+    padding: 8%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
