@@ -1,0 +1,31 @@
+/*---------------renata--------------------*/
+.renata_renata{
+    display:flex;
+    justify-content:space-around;
+    padding: 10px;
+    
+    img{
+        width: 180px;
+        height: 180px;
+        padding: 10px;
+        border-radius: 10%;
+        background-color: white;
+        &:hover{
+            padding: 0;
+            transition: 0.4s;}} 
+}
+
+.renata_renata2{
+    @extend .renata_renata;
+    // display: flex;
+    // justify-content: space-around;
+    // padding: 10px;
+
+    img{
+        width: 180px;
+        height: 180px;
+        border-radius: 10%;
+        padding: 10px;
+        background-color: white;}
+    }
+

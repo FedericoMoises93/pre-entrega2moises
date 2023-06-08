@@ -1,0 +1,29 @@
+/*----------------------------galeria--------------------------------*/
+.main-galeria img{
+    width: 280px;
+    height: 280px;
+    margin-left: 70px;
+    
+    .h1-galeria{
+        @include flex(column,center,center);
+        // display: flex;
+        // justify-content: center;} 
+}
+}
+
+.galeria_grids{
+    display: grid;
+    margin: 0,auto;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-auto-rows: 1fr;
+    grid-gap: 0.4rem;
+
+    img{
+        height: 100%;
+        border-radius: 10%;}
+    }
+
+
+
+
+

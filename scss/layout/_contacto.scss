@@ -1,0 +1,22 @@
+.form_conteiner{
+    padding: 3% 7%;
+}
+
+.boton_enviar{
+    @include flex(column,center,center);
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // gap: 2%;
+    
+}
+
+    .enviar_color{
+        background-color: rgb(190, 176, 158);
+        border-color: rgb(190, 176, 158);
+        &:hover{
+            background-color: rgb(158, 144, 124);
+            transition: 0.4s;
+            border-color: rgb(158, 144, 124);}
+}
+

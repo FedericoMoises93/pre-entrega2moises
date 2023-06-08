@@ -1,0 +1,52 @@
+@media only screen and (max-width:576px) {
+
+    .carousel-inner, .carousel-item, .carousel-item img{
+        height: 400px;}
+
+    .main_index, .main_index2{
+        padding: 3%;}
+
+    img{
+        padding: 3%;}
+
+        .renata_renata,
+        .renata_renata2 {
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .renata_renata img,
+        .renata_renata2 img {
+            width: 150px;
+            height: 150px;
+        }
+
+        .renata_tips {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .renata_tips img {
+            width: 150px;
+            height: 150px;
+        }
+    
+        .tips_texto {
+            font-size: 12px;
+            padding: 8%;
+            
+        }
+
+    }
+    
+        
+    
+
+        
+    
+
+
+
+
+
+
