@@ -10,6 +10,7 @@ body {
 body h1 {
   text-align: center;
   color: rgb(57, 57, 57);
+  margin: 10px;
 }
 
 .carousel-inner, .carousel-item {
@@ -25,19 +26,7 @@ footer {
   display: flex;
   justify-content: center;
   background-color: bisque;
-  padding: 20px;
-}
-footer ul {
-  list-style: none;
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-}
-footer li {
-  margin: 0 10px;
+  padding: 30px;
 }
 footer a {
   text-decoration: none;
@@ -88,8 +77,15 @@ footer a {
 /*---------------renata--------------------*/
 .renata_renata, .renata_renata2 {
   display: flex;
-  justify-content: space-around;
-  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.renata_renata .container, .renata_renata2 .container {
+  flex-basis: 200px;
+  text-align: center;
+  margin: 10px;
+  height: 240px;
 }
 .renata_renata img, .renata_renata2 img {
   width: 180px;
@@ -113,25 +109,21 @@ footer a {
 
 /*---------------------tips--------------------*/
 .renata_tips {
-  display: flex;
-  flex-direction: center;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-}
-.renata_tips img {
-  width: 200px;
-  height: 200px;
-  border-radius: 10%;
-  padding: 10px;
-  background-color: white;
-  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
 }
 
-.tips_texto {
-  border-radius: 10%;
-  background-color: rgb(250, 207, 164);
-  padding: 10px;
+.card {
+  width: 16rem;
+  background-color: beige;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: rgb(242, 207, 164);
+  transition: 0.7ms;
 }
 
 .form_conteiner {
@@ -159,8 +151,19 @@ footer a {
   .carousel-inner, .carousel-item, .carousel-item img {
     height: 400px;
   }
-  .main_index, .main_index2 {
-    padding: 3%;
+  .main_index,
+  .main_index2 {
+    flex-direction: column;
+  }
+  .main_index img,
+  .main_index2 img {
+    flex-basis: 100%;
+    height: auto;
+  }
+  .main_index div,
+  .main_index2 div {
+    flex-basis: 100%;
+    padding: 20px;
   }
   img {
     padding: 3%;
@@ -176,16 +179,9 @@ footer a {
     height: 150px;
   }
   .renata_tips {
-    flex-direction: column;
-    align-items: center;
-  }
-  .renata_tips img {
-    width: 150px;
-    height: 150px;
-  }
-  .tips_texto {
-    font-size: 12px;
-    padding: 8%;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    display: flex;
   }
 }
 

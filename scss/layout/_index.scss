@@ -1,8 +1,6 @@
 .main_index, .main_index2{
     @include flex(center,space-between,center);
-//  display: flex;
-//  justify-content: space-between;
-// align-items: center; 
+ 
  margin-bottom: 20px; 
  text-decoration: solid;
  gap: 20px;

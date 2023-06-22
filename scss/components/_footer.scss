@@ -3,6 +3,12 @@ footer {
     justify-content: center; 
     background-color: $main-color;
     padding: 30px;
+
+    a{
+      text-decoration: none;
+      color: black;
+    }
+    
   }
 
 

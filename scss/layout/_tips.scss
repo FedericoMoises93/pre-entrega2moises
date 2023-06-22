@@ -1,22 +1,59 @@
 /*---------------------tips--------------------*/
-.renata_tips{
-    @include flex(center,center,center);
-    padding: 10px;
 
-    img{
-        width: 200px;
-        height: 200px;
-        border-radius: 10%;
-        padding: 10px;
-        background-color: white;
-        margin: 10px;}    
-}
+.renata_tips {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     padding: 20px;}
+    
+    
+    
+      .card {
+        width: 16rem;
+        background-color: beige; 
+      }
+      
+      .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        background-color: rgb(242, 207, 164);
+        transition: 0.7ms;
+      }
 
-.tips_texto{
-    border-radius: 10%;
-    background-color: rgb(250, 207, 164);
-    padding: 10px;
-}
+
+
+
+
+
+
+    
+
+
+    
+
+    
+
+    
+    
+    // @include flex(center,center,center);
+    // padding: 10px;
+
+    // img{
+    //     width: 200px;
+    //     height: 200px;
+    //     border-radius: 10%;
+    //     padding: 10px;
+    //     background-color: white;
+    //     margin: 10px;}
+    //     &:hover{
+    //         padding: 0;
+    //         transition: 0.4s;}
+
+
+// .tips_texto{
+//     border-radius: 10%;
+//     background-color: rgb(250, 207, 164);
+//     padding: 10px;
+// }
 
 
 
